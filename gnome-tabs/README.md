@@ -28,6 +28,13 @@ chmod +x gnome-tabs
 ```
 
 ### now you can run gnome-tabs app anywhere in your computer
+
+#### open directory
 ```bash
 gnome-tabs <directory1> <directory2> <directory3>
+```
+
+#### open directory and run command
+```bash
+gnome-tabs <directory1> <directory2> <directory3> --cmd "<command to run>"
 ```
